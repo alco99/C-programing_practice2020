@@ -1,5 +1,11 @@
 #include <stdio.h> 
 
+/*
+河內塔：
+從soure搬n個木片到dest，aux作為輔助
+ex:從A搬到C，B作為輔助
+*/
+
 void move(char soure,char dest,char aux,int n);
 
 void move(char soure,char dest,char aux,int n){
